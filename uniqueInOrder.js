@@ -6,3 +6,17 @@
 // uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
 // uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 // uniqueInOrder([1,2,2,3,3])       == [1,2,3]
+
+
+// Pseudocode Answer
+
+// 1. Convert string into array.
+// 2. Filter duplicates.
+
+function uniqueInOrder(str) {
+    let arr = str.split('')
+    let uniqueArray = [...new Set(arr)]
+    return uniqueArray
+}
+
+uniqueInOrder('aaabbacon')
