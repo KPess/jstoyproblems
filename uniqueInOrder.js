@@ -20,3 +20,5 @@ function uniqueInOrder(str) {
 }
 
 uniqueInOrder('aaabbacon')
+
+//3. Filter only duplicates that are adjacent. 
