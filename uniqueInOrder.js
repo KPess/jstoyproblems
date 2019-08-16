@@ -21,4 +21,5 @@ function uniqueInOrder(str) {
 
 uniqueInOrder('aaabbacon')
 
+//4. Evaluate if next index is same or not.
 //3. Filter only duplicates that are adjacent. 
